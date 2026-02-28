@@ -20,7 +20,7 @@ The project demonstrates end-to-end database engineering — from schema design 
 
 ## Entity Relationship Diagram
 
-![ERD](diagrams/er_diagram.svg)
+![ERD](diagrams/er_diagram.png)
 
 > 8 tables · 3NF normalised · 12 foreign key relationships
 

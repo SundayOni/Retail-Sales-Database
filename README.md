@@ -20,7 +20,7 @@ The project demonstrates end-to-end database engineering — from schema design 
 
 ## Entity Relationship Diagram
 
-![ERD](diagrams/er_diagram.svg)
+![ERD](https://raw.githubusercontent.com/SundayOni/Retail-Sales-Database/main/diagrams/er_diagram.svg)
 
 > 8 tables · 3NF normalised · 12 foreign key relationships
 

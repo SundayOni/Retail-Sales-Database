@@ -18,7 +18,7 @@ SELECT
     FORMAT(o.order_date, 'yyyy-MM')          AS order_month,
     COUNT(DISTINCT o.order_id)               AS total_orders,
     SUM(oi.quantity * oi.unit_price)         AS gross_revenue,
-    ROUND(AVG(oi.quantity * oi.unit_price), 2) AS avg_order_item_value
+    ROUND(AVG(oi.quantity * oi.unit_price), 2) AS avg_line_item_value
 FROM orders o
 JOIN order_items oi ON o.order_id = oi.order_id
 WHERE o.order_status = 'Completed'
